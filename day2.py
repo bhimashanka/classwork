@@ -1,4 +1,4 @@
-
+# This program demonstrates the use of variables, data types, and basic input/output in Python.
 age=21
 height=5.8
 AGE=21
@@ -11,7 +11,7 @@ if(age==AGE):
 else:
     print("age is incorrect")
     
-
+#age calculation program
 num1=str(input("Enter a name: "))
 num2=int(input("Enter another age: "))
 currentyear=2026
@@ -28,14 +28,14 @@ age = int(age)
 new_age = age + 4
 print("Hey", name + ", you will be", new_age, "years old in 2030!")
 
-
+#bill splitting program
 totalamount = float(input("Enter the total bill amount: "))
 totalmembers = int(input("Enter the number of people to split the bill: "))
 amountperperson = totalamount / totalmembers
 print("Each person should pay: ", format(amountperperson, '.2f'))
 print("im learning")
 
-
+#variables and data types
 item_name = "Laptop"
 quantity = 2
 price = 499.99
